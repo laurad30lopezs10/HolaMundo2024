@@ -29,7 +29,7 @@
         android:layout_marginTop="220dp"
         android:layout_marginEnd="10dp"
         android:contentDescription="@string/Koalas_marsupiales"
-        android:text="Los koalas son marsupiales emblemáticos de Australia"
+        android:text="Koalas are iconic marsupials of Australia"
         android:textColor="#E040FB"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
