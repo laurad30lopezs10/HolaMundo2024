@@ -6,32 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/txt_bienvenida"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/txt_bienvenida"
-        android:textColor="#E040FB"
-        android:textColorLink="#C1A75EC6"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.749" />
-
     <ImageView
         android:id="@+id/imagen_coala"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="21dp"
+        android:layout_marginBottom="100dp"
         android:contentDescription="@string/Descripcion_image_coala"
-        app:layout_constraintBottom_toTopOf="@+id/txt_bienvenida"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/coala"
         tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/Koalas_marsupiales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/Koalas_marsupiales"
+        android:text="Los koalas son marsupiales emblemáticos de Australia"
+        android:textColor="#E040FB"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
