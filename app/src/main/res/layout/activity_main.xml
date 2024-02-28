@@ -8,32 +8,52 @@
 
     <ImageView
         android:id="@+id/imagen_coala"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="273dp"
+        android:layout_height="244dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="16dp"
         android:contentDescription="@string/Descripcion_image_coala"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.032"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/coala"
         tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/Koalas_marsupiales"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="390dp"
+        android:layout_height="216dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="121dp"
+        android:layout_marginTop="220dp"
         android:layout_marginEnd="10dp"
         android:contentDescription="@string/Koalas_marsupiales"
         android:text="Los koalas son marsupiales emblemáticos de Australia"
         android:textColor="#E040FB"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imagen_nutria"
+        android:layout_width="365dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="13dp"
+        android:contentDescription="@string/imagen_nutria"
+        app:layout_constraintBottom_toTopOf="@+id/Koalas_marsupiales"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285"
+        app:srcCompat="@drawable/download"
+        tools:ignore="ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
