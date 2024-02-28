@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">HolaMundo2024</string>
+    <string name="txt_bienvenida">WELCOME!</string>
+    <string name="Descripcion_image_coala" translatable="false">Image about a koala eating bamboo</string>
+</resources>

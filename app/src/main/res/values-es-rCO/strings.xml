@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_bienvenida">BIENVENIDO!</string>
+    <string name="Descripcion_image_coala">Imagen de un coala comiendo bambu</string>
+    <string name="app_name">HolaMundo2024</string>
+</resources>
